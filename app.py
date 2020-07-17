@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 
 @app.route('/')
-@app.route('/quiz')
+@app.route('/quiz', methods=['GET', 'POST'])
 def quiz():
     return render_template('quiz.html', time = datetime.now())
 

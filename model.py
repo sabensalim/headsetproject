@@ -1,4 +1,5 @@
 def headsetchoice(answer, genre, setup):
+    # pc
     if answer == "pc" and genre == "battleroyale" and "desk":
         return "Cloud Alpha"
     elif answer == "pc" and genre == "battleroyale" and "livingroom":
@@ -29,6 +30,7 @@ def headsetchoice(answer, genre, setup):
         return "Razer Kraken"
     elif answer == "pc" and genre == "strategy" and "desk":
         return "Turtle Beach 50P"
+    # phone
     elif answer == "phone" and genre == "battleroyale" and "desk":
         return "Cloud Alpha"
     elif answer == "phone" and genre == "battleroyale" and "livingroom":
@@ -59,6 +61,7 @@ def headsetchoice(answer, genre, setup):
         return "Razer Kraken"
     elif answer == "phone" and genre == "strategy" and "desk":
         return "Turtle Beach 50P"
+    # nintendo switch
     elif answer == "nintendo switch" and genre == "battleroyale" and setup == "desk":
         return "Cloud Alpha"
     elif answer == "nintendo switch" and genre == "rpg" and setup == "desk":
@@ -100,7 +103,6 @@ def headsetchoice(answer, genre, setup):
         return "Turtle Beach 50P"
     elif answer == "ps4" and genre == "sim" and setup == "office":
         return "Logitech G Pro"
-    
     elif answer == "ps4" and genre == "battleroyale" and setup == "desk":
         return "Cloud Alpha"
     elif answer == "ps4" and genre == "rpg" and setup == "desk":
@@ -111,7 +113,6 @@ def headsetchoice(answer, genre, setup):
         return "Turtle Beach 50P"
     elif answer == "ps4" and genre == "sim" and setup == "desk":
         return "Logitech G Pro"
-    
     elif answer == "ps4" and genre == "battleroyale" and setup == "livingroom":
         return "Cloud Alpha"
     elif answer == "ps4" and genre == "rpg" and setup == "livingroom":

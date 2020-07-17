@@ -1,8 +1,13 @@
+#body{
+    background-color: teal;
+}
 #total{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(auto, auto);
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+    color: white;
 }
 
 #header{
@@ -12,20 +17,16 @@
     grid-row: 1;
     font-size: 50; 
     /* border-color: black; */
-    background-color: blue;
     width: 1300px;
 }
 
 #middle{   
     grid-row: 2;
-    background-color: blue;
     width: 1300px;
 }
 
 
 #footer{
-    border-color: black;    
     grid-row: 3;
-    background-color: blue;
     width: 1300px;
 }
